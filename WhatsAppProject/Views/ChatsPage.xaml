@@ -26,9 +26,10 @@
                         </Border>
 
                         <Label Margin=" -5, 10, 0, 0" Grid.Column="1"  Grid.Row="0" Text="{Binding Name}" FontAttributes="Bold" FontSize="17"/>
-                        <!--<Label Margin="-5, -15, 0, 0" Grid.Column="1" Grid.Row="1" Visual="double_tick.png"/> -->
-                        <Label Margin=" -5, -10, 0,0" Grid.Column="1" Grid.Row="1"  Text="{Binding Message}" />
+                        <Image Source="double_tick.png" Margin="-55, -25, 0, 0" Grid.Column="1" Grid.Row="1" HeightRequest="30"/>
+                        <Label Margin=" -5, 20, 0,0" Grid.Column="1" Grid.Row="1"  Text="{Binding Message}" />
                         <Label Margin=" 100, -35, 0,0" Grid.Column="2" Grid.Row="1"  Text="{Binding Time}" />
+                        
 
 
                     </Grid>
