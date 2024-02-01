@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WhatsAppProject.Views.TabbedPageDemo"
+            xmlns:p="clr-namespace:WhatsAppProject.Views"
+            BarBackgroundColor="#075e54" BarTextColor="White">
+
+
+    <NavigationPage Title="Status"
+                    IconImageSource="schedule.png">
+        <x:Arguments>
+            <p:StatusPage  Title="Whatsapp" />
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="Chats"
+            IconImageSource="schedule.png">
+        <x:Arguments>
+            <p:ChatsPage  Title="WhatsApp" />
+        </x:Arguments>
+    </NavigationPage>
+
+    <NavigationPage Title="Calls"
+                IconImageSource="schedule.png">
+        <x:Arguments>
+            <p:SettingsPage  Title="WhatsApp" />
+        </x:Arguments>
+    </NavigationPage>
+
+</TabbedPage>
