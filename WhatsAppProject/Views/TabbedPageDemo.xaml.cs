@@ -6,4 +6,12 @@ public partial class TabbedPageDemo : TabbedPage
 	{
 		InitializeComponent();
 	}
+    public TabbedPageDemo(string name)
+    {
+        InitializeComponent();
+        if (name != null)
+        {
+            string loginName = name;
+        }
+    }
 }

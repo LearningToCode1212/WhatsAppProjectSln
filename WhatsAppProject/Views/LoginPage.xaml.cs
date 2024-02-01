@@ -6,4 +6,10 @@ public partial class LoginPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+        string username = LoginBtn.Text;
+        App.Current.MainPage = new  TabbedPageDemo(username);
+    }
 }

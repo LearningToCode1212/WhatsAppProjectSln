@@ -9,7 +9,7 @@
     <NavigationPage Title="Status"
                     IconImageSource="schedule.png">
         <x:Arguments>
-            <p:StatusPage  Title="Whatsapp" />
+            <p:StatusPage  Title="WhatsApp" />
         </x:Arguments>
     </NavigationPage>
 

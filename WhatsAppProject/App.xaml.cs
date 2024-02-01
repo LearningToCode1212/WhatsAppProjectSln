@@ -7,11 +7,7 @@ namespace WhatsAppProject
         public App()
         {
             InitializeComponent();
-
-           //           var navPage = new NavigationPage(new Views.TabbedPageDemo());
-
-         //              navPage.Title = "WhatsApp";
-            MainPage = new TabbedPageDemo();
+            MainPage = new LoginPage();
         }
     }
 }
