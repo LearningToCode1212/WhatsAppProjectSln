@@ -9,7 +9,7 @@ public partial class LoginPage : ContentPage
 
     private void Button_Clicked(object sender, EventArgs e)
     {
-        string username = LoginBtn.Text;
-        App.Current.MainPage = new  TabbedPageDemo(username);
+        string userName = LoginBtn.Text;
+        App.Current.MainPage = new  TabbedPageDemo(userName);
     }
 }

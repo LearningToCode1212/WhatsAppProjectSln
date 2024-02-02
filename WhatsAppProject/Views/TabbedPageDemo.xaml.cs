@@ -6,12 +6,14 @@ public partial class TabbedPageDemo : TabbedPage
 	{
 		InitializeComponent();
 	}
-    public TabbedPageDemo(string name)
+    public TabbedPageDemo(string userNAme)
     {
         InitializeComponent();
-        if (name != null)
+        var firstNavPage = this.Children[0] as NavigationPage;
+
+        if (firstNavPage != null)
         {
-            string loginName = name;
+            firstNavPage.CurrentPage.Title = "Welcome " + userNAme + "!!";
         }
     }
 }
